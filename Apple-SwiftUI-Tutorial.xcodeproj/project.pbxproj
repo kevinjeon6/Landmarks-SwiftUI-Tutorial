@@ -12,6 +12,7 @@
 		74901BD5299DE78B00EA3E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74901BD4299DE78B00EA3E8C /* Assets.xcassets */; };
 		74901BD8299DE78B00EA3E8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74901BD7299DE78B00EA3E8C /* Preview Assets.xcassets */; };
 		74901BDF299DEC0E00EA3E8C /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BDE299DEC0E00EA3E8C /* CircleImageView.swift */; };
+		74901BE3299F3B5200EA3E8C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BE2299F3B5200EA3E8C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		74901BD4299DE78B00EA3E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74901BD7299DE78B00EA3E8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74901BDE299DEC0E00EA3E8C /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		74901BE2299F3B5200EA3E8C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				74901BD0299DE78A00EA3E8C /* Apple_SwiftUI_TutorialApp.swift */,
 				74901BD2299DE78A00EA3E8C /* ContentView.swift */,
 				74901BDE299DEC0E00EA3E8C /* CircleImageView.swift */,
+				74901BE2299F3B5200EA3E8C /* MapView.swift */,
 				74901BD4299DE78B00EA3E8C /* Assets.xcassets */,
 				74901BD6299DE78B00EA3E8C /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74901BD3299DE78A00EA3E8C /* ContentView.swift in Sources */,
+				74901BE3299F3B5200EA3E8C /* MapView.swift in Sources */,
 				74901BDF299DEC0E00EA3E8C /* CircleImageView.swift in Sources */,
 				74901BD1299DE78A00EA3E8C /* Apple_SwiftUI_TutorialApp.swift in Sources */,
 			);
