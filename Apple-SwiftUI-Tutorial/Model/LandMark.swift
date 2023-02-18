@@ -20,7 +20,7 @@ struct Landmark: Hashable, Codable {
     private var imageName: String
     
     //Computed image property to upload the image from the JSON data
-    var image: String {
+    var image: Image {
         Image(imageName)
     }
     
