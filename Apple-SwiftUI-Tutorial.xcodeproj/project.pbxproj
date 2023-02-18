@@ -15,6 +15,7 @@
 		74901BE3299F3B5200EA3E8C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BE2299F3B5200EA3E8C /* MapView.swift */; };
 		74901BE529A00A7500EA3E8C /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BE429A00A7500EA3E8C /* LandMark.swift */; };
 		74901BE929A00AE400EA3E8C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74901BE829A00AE400EA3E8C /* landmarkData.json */; };
+		74901BEB29A18DD700EA3E8C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BEA29A18DD700EA3E8C /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		74901BE2299F3B5200EA3E8C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		74901BE429A00A7500EA3E8C /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
 		74901BE829A00AE400EA3E8C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		74901BEA29A18DD700EA3E8C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,8 @@
 			children = (
 				74901BD0299DE78A00EA3E8C /* Apple_SwiftUI_TutorialApp.swift */,
 				74901BE829A00AE400EA3E8C /* landmarkData.json */,
-				74901BE729A00A8500EA3E8C /* Views */,
 				74901BE629A00A7B00EA3E8C /* Model */,
+				74901BE729A00A8500EA3E8C /* Views */,
 				74901BD4299DE78B00EA3E8C /* Assets.xcassets */,
 				74901BD6299DE78B00EA3E8C /* Preview Content */,
 			);
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				74901BE429A00A7500EA3E8C /* LandMark.swift */,
+				74901BEA29A18DD700EA3E8C /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				74901BD3299DE78A00EA3E8C /* ContentView.swift in Sources */,
 				74901BE529A00A7500EA3E8C /* LandMark.swift in Sources */,
+				74901BEB29A18DD700EA3E8C /* ModelData.swift in Sources */,
 				74901BE3299F3B5200EA3E8C /* MapView.swift in Sources */,
 				74901BDF299DEC0E00EA3E8C /* CircleImageView.swift in Sources */,
 				74901BD1299DE78A00EA3E8C /* Apple_SwiftUI_TutorialApp.swift in Sources */,
