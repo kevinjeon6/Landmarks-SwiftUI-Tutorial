@@ -16,6 +16,7 @@
 		74901BE529A00A7500EA3E8C /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BE429A00A7500EA3E8C /* LandMark.swift */; };
 		74901BE929A00AE400EA3E8C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74901BE829A00AE400EA3E8C /* landmarkData.json */; };
 		74901BEB29A18DD700EA3E8C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BEA29A18DD700EA3E8C /* ModelData.swift */; };
+		74901BEE29A193BD00EA3E8C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74901BED29A193BD00EA3E8C /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		74901BE429A00A7500EA3E8C /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
 		74901BE829A00AE400EA3E8C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		74901BEA29A18DD700EA3E8C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		74901BED29A193BD00EA3E8C /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				74901BD2299DE78A00EA3E8C /* ContentView.swift */,
+				74901BED29A193BD00EA3E8C /* LandmarkRow.swift */,
 				74901BDE299DEC0E00EA3E8C /* CircleImageView.swift */,
 				74901BE2299F3B5200EA3E8C /* MapView.swift */,
 			);
@@ -174,6 +177,7 @@
 				74901BEB29A18DD700EA3E8C /* ModelData.swift in Sources */,
 				74901BE3299F3B5200EA3E8C /* MapView.swift in Sources */,
 				74901BDF299DEC0E00EA3E8C /* CircleImageView.swift in Sources */,
+				74901BEE29A193BD00EA3E8C /* LandmarkRow.swift in Sources */,
 				74901BD1299DE78A00EA3E8C /* Apple_SwiftUI_TutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
