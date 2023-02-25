@@ -5,10 +5,17 @@
 //  Created by Kevin Mattocks on 2/18/23.
 //
 
+import Combine
 import Foundation
 
+final class ModelData: ObservableObject {
+ 
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
 
-var landmarks: [Landmark] = load("landmarkData.json")
+
+
+
 
 //T is the placeholder meaning unknown Type. in <T:Decodable>
 //Returning a T means any type of data.
